@@ -1,4 +1,6 @@
 # Fork of uws bindings for discord.js
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fuws.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fuws?ref=badge_shield)
+
 
 ### This fork is for internal usage in the discord.js library only.  
 ### We will provide no support to anyone relying or using it outside of our main project.
@@ -58,3 +60,7 @@ There are some important incompatibilities with `ws` though, we aim to be ~90% c
 * `webSocket._socket.remote...` might fail, you need to cache it at connection.
 * `webSocket` acts like an `EventEmitter` with one listener per event maximum.
 * `webSocket.upgradeReq` is only valid during execution of the connection handler. If you want to keep properties of the upgradeReq for the entire lifetime of the webSocket you better attach that specific property to the webSocket at connection.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fuws.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fuws?ref=badge_large)
